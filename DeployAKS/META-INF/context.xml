@@ -1,1 +1,0 @@
-<Context><Valve className="org.apache.catalina.valves.rewrite.RewriteValve" /><Resources cachingAllowed="false" /></Context>
