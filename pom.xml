@@ -571,6 +571,9 @@
 					<version>2.6</version>
 					<configuration>
 						<webResources>
+							<resource>
+								<directory>${project.basedir}/DeployAKS</directory>
+						    </resource>
 						</webResources>
 					</configuration>
 				</plugin>
