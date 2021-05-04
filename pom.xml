@@ -510,9 +510,8 @@
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>servlet-api</artifactId>
-			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/servlet-api.jar</systemPath>
-			<version>2.12.0</version>
+			<version>1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 		<dependency>
