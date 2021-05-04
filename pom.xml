@@ -3,6 +3,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+	</parent>
+
 	<groupId>com.idquilmes</groupId>
 	<artifactId>DeployAKS</artifactId>
 	<version>1.0-SNAPSHOT</version>
@@ -11,7 +14,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.projectKey>joaco8704_mvn</sonar.projectKey>
+		<sonar.projectKey>joaco8704_gxJDMaven</sonar.projectKey>
 		<sonar.organization>joaco8704</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
@@ -23,7 +26,6 @@
 			<artifactId>GeneXusSecurity</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- annotations-api.jar -->
 		<dependency>
@@ -31,7 +33,6 @@
 			<artifactId>annotations-api</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/annotations-api.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- artech.security.saml.jar -->
 		<dependency>
@@ -39,7 +40,6 @@
 			<artifactId>artech.security.saml</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/artech.security.saml.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
@@ -47,7 +47,6 @@
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/bcprov-jdk15on-1.64.jar</systemPath>
-			<version>1.64</version>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
@@ -55,7 +54,6 @@
 			<artifactId>commons-codec-1.9</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/commons-codec-1.9.jar</systemPath>
-			<version>1.9</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
@@ -69,7 +67,6 @@
 			<artifactId>commons-fileupload-1.3.3</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/commons-fileupload-1.3.3.jar</systemPath>
-			<version>1.3.3</version>
 		</dependency>
 		<!-- commons-httpclient-3.1.jar -->
 		<dependency>
@@ -77,7 +74,6 @@
 			<artifactId>commons-httpclient-3.1</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/commons-httpclient-3.1.jar</systemPath>
-			<version>3.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -103,7 +99,6 @@
 			<artifactId>encoder-1.2.2</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/encoder-1.2.2.jar</systemPath>
-			<version>1.2.2</version>
 		</dependency>
 		<!-- encoder-jsp-1.2.2.jar -->
 		<dependency>
@@ -111,7 +106,6 @@
 			<artifactId>encoder-jsp-1.2.2</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/encoder-jsp-1.2.2.jar</systemPath>
-			<version>1.2.2</version>
 		</dependency>
 		<!-- esapi-2.1.0.1.jar -->
 		<dependency>
@@ -119,7 +113,6 @@
 			<artifactId>esapi-2.1.0.1</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/esapi-2.1.0.1.jar</systemPath>
-			<version>2.1.0.1</version>
 		</dependency>
 		<!-- GAMCache.jar -->
 		<dependency>
@@ -127,7 +120,6 @@
 			<artifactId>GAMCache</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GAMCache.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- GAMCryptography.jar -->
 		<dependency>
@@ -135,7 +127,6 @@
 			<artifactId>GAMCryptography</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GAMCryptography.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- GAMDynamicCall.jar -->
 		<dependency>
@@ -143,7 +134,6 @@
 			<artifactId>GAMDynamicCall</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GAMDynamicCall.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- GeneXus.jar -->
 		<dependency>
@@ -151,7 +141,6 @@
 			<artifactId>GeneXus</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GeneXus.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- genexus.security-mysql.jar -->
 		<dependency>
@@ -159,7 +148,6 @@
 			<artifactId>genexus.security-mysql</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/genexus.security-mysql.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- GeneXusSecurity.jar -->
 		<dependency>
@@ -167,7 +155,6 @@
 			<artifactId>GeneXusSecurity</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GeneXusSecurity.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- GeneXusSecurityCommon.jar -->
 		<dependency>
@@ -175,7 +162,6 @@
 			<artifactId>GeneXusSecurityCommon</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GeneXusSecurityCommon.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
@@ -189,7 +175,6 @@
 			<artifactId>gxclassR</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/gxclassR.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- gxcommon.jar -->
 		<dependency>
@@ -197,7 +182,6 @@
 			<artifactId>gxcommon</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/gxcommon.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- gxcryptocommon.jar -->
 		<dependency>
@@ -205,7 +189,6 @@
 			<artifactId>gxcryptocommon</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/gxcryptocommon.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- gxmaps.jar -->
 		<dependency>
@@ -213,7 +196,6 @@
 			<artifactId>gxmaps</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/gxmaps.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- GXzip.jar -->
 		<dependency>
@@ -221,7 +203,6 @@
 			<artifactId>GXzip</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/GXzip.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-api -->
 		<dependency>
@@ -247,7 +228,6 @@
 			<artifactId>jackson-annotations-2.11.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jackson-annotations-2.11.0.jar</systemPath>
-			<version>2.11.0</version>
 		</dependency>
 		<!-- jackson-core-2.11.0.jar -->
 		<dependency>
@@ -255,7 +235,6 @@
 			<artifactId>jackson-core-2.11.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jackson-core-2.11.0.jar</systemPath>
-			<version>2.11.0</version>
 		</dependency>
 		<!-- jackson-databind-2.11.0.jar -->
 		<dependency>
@@ -263,7 +242,6 @@
 			<artifactId>jackson-databind-2.11.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jackson-databind-2.11.0.jar</systemPath>
-			<version>2.11.0</version>
 		</dependency>
 		<!-- jackson-jaxrs-base-2.9.9.jar -->
 		<dependency>
@@ -271,7 +249,6 @@
 			<artifactId>jackson-jaxrs-base-2.9.9</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jackson-jaxrs-base-2.9.9.jar</systemPath>
-			<version>2.9.9</version>
 		</dependency>
 		<!-- jackson-jaxrs-json-provider-2.9.9.jar -->
 		<dependency>
@@ -279,7 +256,6 @@
 			<artifactId>jackson-jaxrs-json-provider-2.9.9</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jackson-jaxrs-json-provider-2.9.9.jar</systemPath>
-			<version>2.9.9</version>
 		</dependency>
 		<!-- jackson-module-jaxb-annotations-2.9.9.jar -->
 		<dependency>
@@ -287,7 +263,6 @@
 			<artifactId>jackson-module-jaxb-annotations-2.9.9</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.9.jar</systemPath>
-			<version>2.9.9</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
 		<dependency>
@@ -307,7 +282,6 @@
 			<artifactId>javax.jms-3.1.2.2</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/javax.jms-3.1.2.2.jar</systemPath>
-			<version>3.1.2.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.main.javaee-api/javax.jws -->
 		<dependency>
@@ -345,7 +319,6 @@
 			<artifactId>jersey-client</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jersey-client.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- jersey-common.jar -->
 		<dependency>
@@ -353,7 +326,6 @@
 			<artifactId>jersey-common</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jersey-common.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- jersey-container-servlet-core.jar -->
 		<dependency>
@@ -361,7 +333,6 @@
 			<artifactId>jersey-container-servlet-core</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jersey-container-servlet-core.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.ext/jersey-entity-filtering -->
 		<dependency>
@@ -387,7 +358,6 @@
 			<artifactId>jersey-server</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/jersey-server.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- joda-time-2.10.4.jar -->
 		<dependency>
@@ -395,7 +365,6 @@
 			<artifactId>joda-time-2.10.4</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/joda-time-2.10.4.jar</systemPath>
-			<version>2.10.4</version>
 		</dependency>
 		<!-- json-20180813.jar -->
 		<dependency>
@@ -403,7 +372,6 @@
 			<artifactId>json-20180813</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/json-20180813.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- log4j-api-2.13.3.jar -->
 		<dependency>
@@ -411,7 +379,6 @@
 			<artifactId>log4j-api-2.13.3</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/log4j-api-2.13.3.jar</systemPath>
-			<version>2.13.3</version>
 		</dependency>
 		<!-- log4j-core-2.13.3.jar -->
 		<dependency>
@@ -419,7 +386,6 @@
 			<artifactId>log4j-core-2.13.3</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/log4j-core-2.13.3.jar</systemPath>
-			<version>2.13.3</version>
 		</dependency>
 		<!-- mysql-connector-java-5.1.49.jar -->
 		<dependency>
@@ -427,7 +393,6 @@
 			<artifactId>mysql-connector-java-5.1.49</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/mysql-connector-java-5.1.49.jar</systemPath>
-			<version>5.1.49</version>
 		</dependency>
 		<!-- not-yet-commons-ssl-0.3.17.jar -->
 		<dependency>
@@ -435,7 +400,6 @@
 			<artifactId>not-yet-commons-ssl-0.3.17</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/not-yet-commons-ssl-0.3.17.jar</systemPath>
-			<version>0.3.17</version>
 		</dependency>
 		<!-- oauthlibgx.jar -->
 		<dependency>
@@ -443,7 +407,6 @@
 			<artifactId>oauthlibgx</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/oauthlibgx.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- opensaml-2.6.5.jar -->
 		<dependency>
@@ -451,7 +414,6 @@
 			<artifactId>opensaml-2.6.5</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/opensaml-2.6.5.jar</systemPath>
-			<version>2.6.5</version>
 		</dependency>
 		<!-- openws-1.5.4.jar -->
 		<dependency>
@@ -459,7 +421,6 @@
 			<artifactId>openws-1.5.4</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/openws-1.5.4.jar</systemPath>
-			<version>1.5.4</version>
 		</dependency>
 		<!-- reorganization.jar -->
 		<dependency>
@@ -467,7 +428,13 @@
 			<artifactId>reorganization</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/reorganization.jar</systemPath>
-			<version>1.0</version>
+		</dependency>
+		<!-- servlet-api.jar -->
+		<dependency>
+			<groupId>genexus</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>system</scope>
+			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/servlet-api.jar</systemPath>
 		</dependency>
 		<!-- slf4j-api-1.7.5.jar -->
 		<dependency>
@@ -475,7 +442,6 @@
 			<artifactId>slf4j-api-1.7.5</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/slf4j-api-1.7.5.jar</systemPath>
-			<version>1.7.5</version>
 		</dependency>
 		<!-- slf4j-simple-1.7.10.jar -->
 		<dependency>
@@ -483,7 +449,6 @@
 			<artifactId>slf4j-simple-1.7.10</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/slf4j-simple-1.7.10.jar</systemPath>
-			<version>1.7.10</version>
 		</dependency>
 		<!-- twitter4j-core-4.0.1.jar -->
 		<dependency>
@@ -491,7 +456,6 @@
 			<artifactId>twitter4j-core-4.0.1</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/twitter4j-core-4.0.1.jar</systemPath>
-			<version>4.0.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
 		<dependency>
@@ -505,14 +469,6 @@
 			<artifactId>xercesImpl-2.12.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/xercesImpl-2.12.0.jar</systemPath>
-			<version>2.12.0</version>
-		</dependency>
-		<dependency>
-			<groupId>genexus</groupId>
-			<artifactId>servlet-api</artifactId>
-			<scope>system</scope>
-			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/servlet-api.jar</systemPath>
-			<version>1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 		<dependency>
@@ -526,7 +482,6 @@
 			<artifactId>xmltooling-1.4.4</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/xmltooling-1.4.4.jar</systemPath>
-			<version>1.4.4</version>
 		</dependency>
 
 	</dependencies>
@@ -546,9 +501,6 @@
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.7.0</version>
-					<configuration>
-						<release>11</release>
-				     	</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
@@ -571,9 +523,6 @@
 					<version>2.6</version>
 					<configuration>
 						<webResources>
-							<resource>
-								<directory>${basedir}/src/main/java/webapp</directory>
-						    </resource>
 						</webResources>
 					</configuration>
 				</plugin>
