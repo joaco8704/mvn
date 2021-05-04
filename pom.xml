@@ -572,7 +572,7 @@
 					<configuration>
 						<webResources>
 							<resource>
-								<directory>${basedir}/src/main/java/webapp/WEB-INF</directory>
+								<directory>${basedir}/src/main/java/webapp</directory>
 						    </resource>
 						</webResources>
 					</configuration>
