@@ -510,6 +510,7 @@
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>servlet-api</artifactId>
+			<scope>system</scope>
 			<systemPath>${basedir}/src/main/java/webapp/WEB-INF/lib/servlet-api.jar</systemPath>
 			<version>1.0</version>
 		</dependency>
