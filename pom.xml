@@ -575,6 +575,7 @@
 								<directory>${basedir}/src/main/java/webapp</directory>
 						    </resource>
 						</webResources>
+						<warSourceExcludes>**/*.java</warSourceExcludes>
 					</configuration>
 				</plugin>
 			</plugins>
